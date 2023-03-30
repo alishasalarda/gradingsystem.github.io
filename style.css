@@ -1,0 +1,94 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.leftCol {
+  height: 300px;
+  width: 600px;
+}
+
+.rightCol {
+  align-items: end;
+  height: 300px;
+  width: 700px;
+}
+
+.name {
+  margin: 10em, 0;
+  color: #c52222
+}
+
+.row { display: flex;}
+.grade {
+  color: #0010ee;
+  background: #67b6a2;
+}
+
+.grading {
+  padding: 10px;
+  color: #e45858;
+  background: #2c2c2c;
+  width: 115px;
+}
+
+#gradeForm, #gradeCalc {
+  max-width: 700px;
+  padding: 120px;
+  border: 30px solid #927bbd;
+  margin: 20px 0;
+  background-color: rgba(51, 221, 213, 0.9);
+}
+
+#gradeForm , #gradeForm input {
+  display: block;
+  width: 100%;
+}
+
+#gradeForm input {
+  border: 10px solid #9010e6;
+}
+
+#gradeForm label { 
+  margin: 50px 0;
+}
+
+#gradeForm input { 
+  padding: 10px; 
+}
+
+#gradeForm input[type=submit] {
+  margin-top: 50px;
+  color: #ffffff;
+  border: 200;
+  background: #4771fc;
+}
+
+#gradeForm input[type=number] { 
+  flex-grow: 1; 
+}
+
+#gradeCalc {
+  margin-top: 200px;
+  font-weight: 100;
+}
+
+#gradeCalc .grade { 
+  width: 120px; 
+}
+
+#gradeCalc .row {
+  border: 1px solid #0ee4d2;
+  background: #ce8909;
+}
+
+#gradeAverage, #gradeRemarks, #gradeDescriptor { 
+  padding: 10px
+}
